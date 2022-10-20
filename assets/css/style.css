@@ -7,7 +7,7 @@
 .container{
     width: 50%;
     margin: auto;
-    margin-top: 30vh;
+    margin-top: 20vh;
     background-color: rgb(239, 240, 231);
     padding: 50px 20px;
     border-radius: 20px;
@@ -24,10 +24,21 @@ input{
     margin-bottom: 15px;
 }
 
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: salmon;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
 body{
-    background-color: rgb(237, 92, 92);
+    background-image: linear-gradient(to right ,rgb(237, 92, 92), rgb(245, 145, 145));
 }
 
 #preventivo{
     margin-top: 10px;
 }
+
+h1 { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
