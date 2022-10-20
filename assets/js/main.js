@@ -12,13 +12,13 @@ function valida(){
     let discount;
     if (valueAge < 18) {
         discount = 20;
-        document.getElementById('preventivo').innerHTML = kmPrice - ((kmPrice * discount)  / 100);
+        document.getElementById('preventivo').innerHTML = (kmPrice - ((kmPrice * discount)  / 100)).toFixed(2) + ' €';
     } else if (valueAge > 64){
         discount = 40;
-        document.getElementById('preventivo').innerHTML = kmPrice - ((kmPrice * discount)  / 100);
+        document.getElementById('preventivo').innerHTML = (kmPrice - ((kmPrice * discount)  / 100)).toFixed(2) + ' €';
     } else {
         discount = 0
-        document.getElementById('preventivo').innerHTML = kmPrice;
+        document.getElementById('preventivo').innerHTML = kmPrice.toFixed(2) + ' €';
     }
     console.log(discount);
     
